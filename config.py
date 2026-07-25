@@ -1,7 +1,7 @@
 import os
 
 # Define the local model you pulled via Ollama
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.2")
 
 # Define where the vector database lives on your hard drive
 CHROMA_PATH = os.getenv("CHROMA_PATH", "./data/chroma_db")
