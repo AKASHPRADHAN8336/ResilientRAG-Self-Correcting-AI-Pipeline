@@ -35,7 +35,7 @@ if __name__ == "__main__":
     os.makedirs("documents", exist_ok=True)
     
     # Define the path to our sample PDF
-    sample_pdf_path = "documents/company_policy.pdf"
+    sample_pdf_path = "data_1.pdf"
     
     # Check if the user actually put a PDF there
     if os.path.exists(sample_pdf_path):
